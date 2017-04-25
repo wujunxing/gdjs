@@ -1,0 +1,224 @@
+﻿/*! Product by Wu Jun Xing */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, span{ margin:0; padding:0;}
+body{font-family: Arial,"Microsoft YaHei","微软雅黑","宋体"; font-size:14px; line-height:2; color:#666; background-color:White;}
+
+a{text-decoration:none; font-size:14px; color:#0D5EAD;}
+a:hover{ text-decoration:underline; }
+
+img {border:0;}
+table, img, hr, .mceItemAnchor {cursor:default}
+table td, table th {cursor:text}
+ins {border-bottom:1px solid green; text-decoration: none; color:green}
+del {color:red; text-decoration:line-through}
+cite {border-bottom:1px dashed blue}
+acronym {border-bottom:1px dotted #CCC; cursor:help}
+abbr {border-bottom:1px dashed #CCC; cursor:help}
+li {list-style: none outside none;}
+table {border-collapse: collapse;border-spacing:0;}
+
+.clear{ clear:both;}
+.wdiv{ width:1000px; margin:0px auto;}
+.wdiv10{ width:1000px; margin:10px auto;}
+.f_left{float:left;}
+.f_right{float:right;}
+.f_left20{float:left; margin-left:20px;}
+
+.page_head{
+    width:1000px; height:117px; margin:0 auto; background-image:url(../img/page_head.jpg); background-position:center bottom; background-repeat:no-repeat;
+}
+.page_head .logo{
+    float:left; margin-top:17px;
+}
+
+.page_nav{
+    width:1000px; height:36px; margin:0 auto;
+}
+
+.page_footer{
+    width:1000px; height:40px; background-color:#2a2a2a; margin:0 auto;
+}
+
+.page_footer .footerLink{
+    width:167px; height:22px; line-height:22px; background:url(../img/footerlinks.png) no-repeat; float:left; margin-left:50px; margin-top:10px; position:relative; z-index:199; cursor:pointer;
+}
+.footerLink span{ padding-left:8px;}
+.footerLinkCon{ width:143px; padding:12px; background:#fff; border:1px solid #e7e7e7; border-radius:2px; position:absolute; bottom:22px; left:0; display:none; }
+.footerLinkCon a{ display:inline-block; width:143px; font:12px/18px "微软雅黑"; color:#336666; padding:3px 0 3px 10px; background:url(../img/list01.png) no-repeat left 10px; }
+.footerLinkCon a:hover{ color:#ff9900; background:url(../img/list01_on.png) no-repeat left 10px}
+
+.page_footer .copyright{
+    width:400px; height:40px; float:right; line-height:40px; color:#9a9a9a; margin-right:20px;
+}
+
+
+/* index */
+.index_banner{
+    width:1000px; height:300px; margin:0 auto;
+}
+
+.col740{
+    width:740px;
+}
+.col250{
+    width:250px;
+}
+.col480{
+    width:490px;
+}
+.col320{
+    width:320px;
+}
+
+.index_part01{
+    border:1px solid #cedbe4;
+}
+.index_title01{
+    height:30px; position:relative; border-bottom:1px solid #cedbe4;
+}
+.index_title01 .title01{
+    display:block; float:left;
+}
+.index_title01 .more{
+    display:block; float:right;
+}
+.index_content01{
+    padding:20px;
+}
+
+.index_topnews{
+
+}
+.index_topnews h5{
+    height:32px; overflow:hidden;
+}
+.index_topnews h5 a{
+    line-height:32px; font-size:16px; color:#333; font-weight:normal;
+}
+.index_topnews .sub{
+    height:60px; line-height:20px; text-indent:2em; color:#a0a0a0;
+}
+.index_topnews .more{
+    height:20px; line-height:20px;
+}
+.index_topnews .more a{
+    display:block; float:left;
+}
+.index_topnews .more span{
+    display:block; float:right;
+}
+
+.index_newslist01{
+
+}
+.index_newslist01 li{
+    height:24px; padding-left:10px; overflow:hidden; background-image:url(../img/list_point.gif); background-position:left top; background-repeat:no-repeat;
+}
+.index_newslist01 span{
+    display:block; width:80px; height:24px; overflow:hidden; float:right;
+}
+.index_newslist01 a{
+    display:block; width:300px; height:24px; overflow:hidden; float:left; 
+}
+
+.index_newslist02{
+
+}
+.index_newslist02 li{
+    height:24px; padding-left:10px; overflow:hidden; background-image:url(../img/list_point.gif); background-position:left top; background-repeat:no-repeat;
+}
+.index_newslist02 span{
+    display:block; width:80px; height:24px; overflow:hidden; float:right;
+}
+.index_newslist02 a{
+    display:block; width:300px; height:24px; overflow:hidden; float:left; 
+}
+
+.index_newslist03{
+
+}
+.index_newslist03 li{
+    height:24px; padding-left:10px; overflow:hidden; background-image:url(../img/list_point.gif); background-position:left top; background-repeat:no-repeat;
+}
+.index_newslist03 a{
+    display:block; width:300px; height:24px; overflow:hidden; float:left; 
+}
+
+/* log in */
+.login{
+    border:1px solid #cedbe4;
+}
+.login .title01{
+    height:25px; line-height:25px; font-weight:bold; color:#034484; text-align:center;
+    background:url(../img/b_left_title.jpg) repeat-x;
+}
+.login .lable{
+    margin: 7px 0px;
+    text-align: center;
+    color: #666;
+    line-height: 29px;
+}
+.login .input{
+    width: 158px;
+    height: 20px;
+    border: 1px solid #E3E3E3;
+    color: #666;
+}
+.login .button{
+    background: url(../img/form_but.gif) no-repeat;
+    width: 65px;
+    height: 22px;
+    border: none;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+    line-height: 22px;
+}
+
+/* flash */
+.flash_slider{
+    width:250px; height:200px; margin-top:20px;
+}
+
+/*product*/
+#index_project {
+    width:998px; border:1px solid #cedbe4;
+}
+#index_project .more{
+    float:left; width:140px; border-right:1px solid #cedbe4;
+}
+#index_project .more a{
+    display:block; width:140px; height:170px;
+}
+#product_carousel{
+    float:left; width:848px; overflow:hidden;
+}
+    #product_carousel .viewport {
+        float:left; position:relative; width:800px; height:170px; overflow:hidden;
+    }
+    #product_carousel .overview{
+        position:absolute; left:0px; top:0px;
+    }
+    #product_carousel .overview li{
+        display:block; width:188px; height:160px; padding:6px;overflow:hidden; float:left; text-align:center;
+    }
+    #product_carousel .overview li img{
+        width:180px; height:120px; border:3px solid #eee;
+    }
+    #product_carousel .product_btn {
+        float:left; width:20px; height:170px; margin-left:4px;
+    }
+    #product_carousel .product_btn .prev{
+        display:block; width:20px; height:170px; border-right:1px solid #ddd;
+        background-image:url(../img/icon_prev.png); background-position:center center; background-repeat:no-repeat;
+    }
+        #product_carousel .product_btn .prev:hover {
+            background-image:url(../img/icon_prev_on.png);
+        }
+    #product_carousel .product_btn .next{
+        display:block; width:20px; height:170px; border-left:1px solid #ddd; float:right;
+        background-image:url(../img/icon_next.png); background-position:center center; background-repeat:no-repeat;
+    }
+        #product_carousel .product_btn .next:hover{
+            background-image:url(../img/icon_next_on.png);
+        }
