@@ -100,11 +100,11 @@ table {border-collapse: collapse;border-spacing:0;}
     width:1000px; height:300px;
 }
 
-.col740{
-    width:740px;
+.col690{
+    width:690px;
 }
-.col250{
-    width:250px;
+.col300{
+    width:300px;
 }
 .col480{
     width:490px;
@@ -134,7 +134,7 @@ table {border-collapse: collapse;border-spacing:0;}
 }
 
 .index_topnews{
-    border-bottom:1px dashed #cedbe4; padding-bottom:10px; margin-bottom:20px;
+    border-bottom:1px dashed #cedbe4; padding-bottom:16px; margin-bottom:20px;
 }
 .index_topnews h5{
     height:32px; overflow:hidden;
@@ -165,7 +165,7 @@ table {border-collapse: collapse;border-spacing:0;}
     display:block; width:80px; height:24px; overflow:hidden; float:right;
 }
 .index_newslist01 a{
-    display:block; width:560px; height:24px; overflow:hidden; float:left; 
+    display:block; width:510px; height:24px; overflow:hidden; float:left; 
 }
 
 .index_newslist02{
@@ -223,10 +223,38 @@ table {border-collapse: collapse;border-spacing:0;}
 }
 
 /* flash */
-.flash_slider{
-    width:250px; height:200px; margin-top:20px;
+#flash_slider{
+    width:300px; height:240px; margin-top:10px; position:relative;
 }
-
+#flash_slider .viewport {
+        position:relative; width:300px; height:240px; overflow:hidden;
+    }
+    #flash_slider .overview{
+        position:absolute; left:0px; top:0px;
+    }
+    #flash_slider .overview li{
+        display:block; width:300px; height:240px; overflow:hidden; float:left; text-align:center;
+    }
+    #flash_slider .overview li img{
+        display:block; width:300px; height:240px;
+    }
+    #flash_slider .bullets{
+        position:absolute; right:0px; bottom:0px;
+    }
+    #flash_slider .bullets li{
+        display:inline-block; margin-right:3px;
+        /* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+    }
+    #flash_slider .bullets li a{
+        display:inline-block; width:18px; height:18px; text-align:center; background-color:#555; line-height:18px;
+        border:1px solid #fff; color:#fff;
+    }
+    #flash_slider .bullets li .active{
+        background-color:red;
+    }
 /*product*/
 #index_project {
     width:998px; border:1px solid #cedbe4;
