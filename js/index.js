@@ -1,4 +1,9 @@
-﻿//项目展示---------------------------------------------------------------Begin
+﻿
+$(function () {
+    $("#slider").nivoSlider({ pauseTime: 3000, controlNav: false, controlNavThumbs:true });
+});
+
+//项目展示---------------------------------------------------------------Begin
 
 $(function () {
     $("#product_carousel").tinycarousel({ interval: true });
