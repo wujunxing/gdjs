@@ -12,6 +12,9 @@
 <body>
     <div class="page_head">
         <div class="logo"><img src="img/logo.png" alt="" /></div>
+        <!--<div class="links">
+            <a href="javascript:void(0);" onclick="AddFavorite('我的网站', location.href)">收藏本站</a><span>|</span><a href="javascript:void(0);" onclick="SetHome(this, 'http://www.gdjsgs.com');">设为首页</a>
+        </div>-->
         <div class="clear"></div>
     </div>
 
@@ -72,7 +75,7 @@
 
             <div class="index_part01">
                 <div class="index_title01">
-                    <h5 class="title01">企业新闻</h5>
+                    <h5 class="title01"><span>企业新闻</span></h5>
                     <p class="more"><a href="javascript:void();">更多&gt;&gt;</a></p>
                     <div class="clear"></div>
                 </div>
@@ -80,7 +83,7 @@
                 <div class="index_content01">
 
                     <div class="index_topnews">
-                        <h5><a href="javascript:void();">牢记使命担当  筑牢制度堤坝 全力推进党风廉洁建设和巡视巡查工作向纵深发展——集团属下源大集团公司召开2017年党风廉洁建设工作会议</a></h5>
+                        <h5><a href="javascript:void();" title="牢记使命担当  筑牢制度堤坝 全力推进党风廉洁建设和巡视巡查工作向纵深发展——集团属下源大集团公司召开2017年党风廉洁建设工作会议">牢记使命担当  筑牢制度堤坝 全力推进党风廉洁建设和巡视巡查工作向纵深发展——集团属下源大集团公司召开2017年党风廉洁建设工作会议</a></h5>
                         <p class="sub">3月30日，源大集团公司召开了2017年党风廉洁建设工作会议暨全面巡查动员会议，公司领导班子成员、本部部门助理以上管理人员和全体党员以及各控股公司总经理、常务副总经理、党支部书记等参加会议。会议由公司党委副书记、纪...</p>
                         <div class="more">
                             <a href="javascript:void();">查看详细&gt;&gt;</a>
@@ -136,10 +139,10 @@
     </div>
 
     <div class="wdiv10">
-        <div class="col480 f_left">
+        <div class="col485 f_left">
             <div class="index_part01">
                 <div class="index_title01">
-                    <h5 class="title01">党建视窗</h5>
+                    <h5 class="title01"><span>党建视窗</span></h5>
                     <p class="more"><a href="javascript:void();">更多&gt;&gt;</a></p>
                     <div class="clear"></div>
                 </div>
@@ -158,10 +161,10 @@
             </div>
         </div>
 
-        <div class="col480 f_right">
+        <div class="col485 f_right">
             <div class="index_part01">
                 <div class="index_title01">
-                    <h5 class="title01">科技创新</h5>
+                    <h5 class="title01"><span>科技创新</span></h5>
                     <p class="more"><a href="javascript:void();">更多&gt;&gt;</a></p>
                     <div class="clear"></div>
                 </div>
@@ -187,7 +190,7 @@
         <div class="col320 f_left">
             <div class="index_part01">
                 <div class="index_title01">
-                    <h5 class="title01">企业文化</h5>
+                    <h5 class="title01"><span>企业文化</span></h5>
                     <p class="more"><a href="javascript:void();">更多&gt;&gt;</a></p>
                     <div class="clear"></div>
                 </div>
@@ -206,10 +209,10 @@
             </div>
         </div>
 
-        <div class="col320 f_left20">
+        <div class="col320 f_left_2">
             <div class="index_part01">
                 <div class="index_title01">
-                    <h5 class="title01">上级精神</h5>
+                    <h5 class="title01"><span>上级精神</span></h5>
                     <p class="more"><a href="javascript:void();">更多&gt;&gt;</a></p>
                     <div class="clear"></div>
                 </div>
@@ -231,7 +234,7 @@
         <div class="col320 f_right">
             <div class="index_part01">
                 <div class="index_title01">
-                    <h5 class="title01">通知通告</h5>
+                    <h5 class="title01"><span>通知通告</span></h5>
                     <p class="more"><a href="javascript:void();">更多&gt;&gt;</a></p>
                     <div class="clear"></div>
                 </div>
@@ -255,12 +258,9 @@
 
     <div id="index_project" class="wdiv10">
         <div class="more">
-            <a href="javascript:void();"><img src="img/project.jpg"></a>
+            <a href="javascript:void();">精品工程</a>
         </div>
         <div id="product_carousel">
-            <div class="product_btn">
-                <a class="buttons prev" href="javascript:void();"></a>
-            </div>
             <div class="viewport">
                 <ul class="overview">
                     <li><a href="javascript:void();"><img src="Upload/p1.jpg" alt=""><span>中国散裂中子源项目全景</span></a></li>
@@ -271,6 +271,7 @@
                 </ul>
             </div>
             <div class="product_btn">
+                <a class="buttons prev" href="javascript:void();"></a>
                 <a class="buttons next" href="javascript:void();"></a>
             </div>
             <div class="clear"></div>
@@ -351,33 +352,7 @@
     <script src="nivoslider/jquery.nivo.slider.js"></script>
     <script type="text/javascript" src="js/jquery.tinycarousel.js"></script>
     
-
-    <script type="text/javascript">
-        $(function () {
-            /*主要导航菜单*/
-            $("#nav .li01").hover(function () {
-                $(this).find(".ul02").stop().slideDown(400);
-            }, function () {
-                $(this).find(".ul02").stop().slideUp(0);
-            });
-
-            $("#nav .li02").hover(function () {
-                $(this).find(".ul03").stop().slideDown(400);
-                $(this).addClass("link02_hover");
-            }, function () {
-                $(this).find(".ul03").stop().slideUp(0);
-                $(this).removeClass("link02_hover");
-            });
-
-            /*底部友情链接*/
-            $(".footerLink").hover(function () {
-                $(this).children(".footerLinkCon").show()
-            }, function () {
-                $(this).children(".footerLinkCon").hide()
-            })
-
-        })
-    </script>
+    <script type="text/javascript" src="js/fun.js"></script>
 
     <script type="text/javascript" src="js/index.js"></script>
 </body>

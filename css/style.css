@@ -1,9 +1,9 @@
 ﻿/*! Product by Wu Jun Xing */
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, span{ margin:0; padding:0;}
-body{font-family: Arial,"Microsoft YaHei","微软雅黑","宋体"; font-size:14px; line-height:2; color:#666; background-color:White;}
-
-a{text-decoration:none; font-size:14px; color:#0D5EAD;}
+body{font-family: Arial,"Microsoft YaHei","微软雅黑","宋体"; font-size:13px; line-height:2; color:#666; background-color:White;}
+body{background-image:url(../img/bg.jpg); background-position:left top; background-repeat:repeat-x;}
+a{text-decoration:none; color:#0D5EAD;}
 a:hover{ text-decoration:underline; }
 
 img {border:0;}
@@ -23,12 +23,28 @@ table {border-collapse: collapse;border-spacing:0;}
 .f_left{float:left;}
 .f_right{float:right;}
 .f_left20{float:left; margin-left:20px;}
+.f_left_2{float:left; margin-left:10px;}
 
 .page_head{
-    width:1000px; height:117px; margin:0 auto; background-image:url(../img/page_head.jpg); background-position:center bottom; background-repeat:no-repeat;
+    width:1000px; height:100px; margin:0 auto;
+    background-image:url(../img/page_head.jpg);
+    background-position:center top;
+    background-repeat:no-repeat;
 }
 .page_head .logo{
-    float:left; margin-top:17px;
+    float:left; margin-top:5px;
+}
+.page_head .links{
+    float:right; margin-top:10px;
+}
+.page_head .links a,.page_head .links span{
+    margin:0 2px;
+}
+.page_head .links a{
+    color:#336666;
+}
+.page_head .links span{
+    color:#aaa;
 }
 
 .page_nav{
@@ -106,38 +122,44 @@ table {border-collapse: collapse;border-spacing:0;}
 .col300{
     width:300px;
 }
-.col480{
-    width:490px;
+.col485{
+    width:480px;
+}
+.col485{
+    width:495px;
 }
 .col320{
-    width:320px;
+    width:326px;
 }
 
 .index_part01{
-    border:1px solid #cedbe4;
 }
 .index_title01{
-    height:26px; position:relative; border-bottom:1px solid #cedbe4;
-    background-image:url(../img/b_right_title.jpg); background-position:center center; background-repeat:no-repeat;
+    height:32px; position:relative;
+    background-image:url(../img/title01_02.jpg); background-position:right bottom; background-repeat:repeat-x;
 }
 .index_title01 .title01{
-    display:block; float:left; margin-left:20px; color:#0D5EAD; font-weight:bold; font-size:13px; line-height:26px;
+    display:block; float:left; padding-left:10px; padding-right:40px; height:32px; color:#ffffff; font-weight:bold; font-size:13px; line-height:32px;
+    background-image:url(../img/title01_01.jpg); background-position:right bottom; background-repeat:no-repeat;
+}
+.index_title01 .title01 span{
+    display:block; height:32px; padding-left:20px; background-image:url(../img/title01_01.jpg); background-position:left center;
 }
 .index_title01 .more{
-    display:block; float:right; margin-right:20px;
+    display:block; float:right; margin-right:16px;
 }
 .index_title01 .more a{
-    font-size:12px;  line-height:26px;
+    font-size:12px;  line-height:32px; display:block;
 }
 .index_content01{
-    padding:20px;
+    padding:20px; border:1px solid #ccc; border-top:none;
 }
 
 .index_topnews{
     border-bottom:1px dashed #cedbe4; padding-bottom:16px; margin-bottom:20px;
 }
 .index_topnews h5{
-    height:32px; overflow:hidden;
+    height:32px; overflow:hidden; 
 }
 .index_topnews h5 a{
     line-height:32px; font-size:16px; color:#333; font-weight:normal;
@@ -193,11 +215,11 @@ table {border-collapse: collapse;border-spacing:0;}
 
 /* log in */
 .login{
-    border:1px solid #cedbe4;
+    border:1px solid #ccc; border-top:none;
 }
 .login .title01{
-    height:25px; line-height:25px; font-weight:bold; color:#034484; text-align:center;
-    background:url(../img/b_left_title.jpg) repeat-x;
+    height:28px; line-height:28px; font-weight:bold; color:#666; text-align:center;
+    background:url(../img/title_login.jpg) repeat-x;
 }
 .login .lable{
     margin: 7px 0px;
@@ -257,43 +279,111 @@ table {border-collapse: collapse;border-spacing:0;}
     }
 /*product*/
 #index_project {
-    width:998px; border:1px solid #cedbe4;
+    width:998px; border:1px solid #ccc;
 }
 #index_project .more{
-    float:left; width:140px; border-right:1px solid #cedbe4;
+    float:left; width:30px; height:170px;
+    background-image:url(../img/iproject.jpg);
+    background-position:right center; background-repeat:no-repeat;
 }
 #index_project .more a{
-    display:block; width:140px; height:170px;
+    display:block; width:20px; padding:0px 5px; margin-top:40px; color:#fff; line-height:20px; text-align:center; font-weight:bold;
 }
 #product_carousel{
-    float:left; width:848px; overflow:hidden;
+    float:left; width:968px; overflow:hidden;
 }
     #product_carousel .viewport {
-        float:left; position:relative; width:800px; height:170px; overflow:hidden;
+        float:left; position:relative; width:940px; height:170px; overflow:hidden;
     }
     #product_carousel .overview{
         position:absolute; left:0px; top:0px;
     }
     #product_carousel .overview li{
-        display:block; width:188px; height:160px; padding:6px;overflow:hidden; float:left; text-align:center;
+        display:block; width:182px; height:160px; padding:3px;overflow:hidden; float:left; text-align:center;
     }
     #product_carousel .overview li img{
-        width:180px; height:120px; border:3px solid #eee;
+        width:180px; height:120px; border:1px solid #eee;
     }
     #product_carousel .product_btn {
-        float:left; width:20px; height:170px; margin-left:4px;
+        float:left; width:18px; margin-top:6px;
     }
     #product_carousel .product_btn .prev{
-        display:block; width:20px; height:170px; border-right:1px solid #ddd;
+        display:block; width:18px; height:50px; background-color:#eee;
         background-image:url(../img/icon_prev.png); background-position:center center; background-repeat:no-repeat;
     }
         #product_carousel .product_btn .prev:hover {
             background-image:url(../img/icon_prev_on.png);
         }
     #product_carousel .product_btn .next{
-        display:block; width:20px; height:170px; border-left:1px solid #ddd; float:right;
+        display:block; width:18px; height:50px; background-color:#eee; margin-top:6px;
         background-image:url(../img/icon_next.png); background-position:center center; background-repeat:no-repeat;
     }
         #product_carousel .product_btn .next:hover{
             background-image:url(../img/icon_next_on.png);
         }
+
+
+.inner_nav{
+    width:1000px; margin:20px auto; padding:6px 0px; height:26px; border-bottom:1px solid #CCC;
+}
+.inner_nav a,.inner_nav span{
+    display:inline-block; height:26px; line-height:26px; color:#666; font-size:13px; margin-right:10px;
+}
+.inner_nav a:hover,.inner_nav .cur{
+    color:#ff9900;
+}
+.inner_nav .index{
+    padding-left:20px; background-image:url(../img/icon_home.jpg); background-position:left center; background-repeat:no-repeat;
+}
+
+.col_inner01{
+    width:216px; float:left;
+}
+.col_inner02{
+    width:760px; float:right;
+}
+.smenu{
+
+}
+.smenu h3{
+    width: 216px;
+    height: 52px;
+    line-height: 55px;
+    background: url(../img/sibar_top.png) left center no-repeat;
+    font-size: 22px;
+    font-weight: normal;
+    text-indent: 50px;
+    color: #fff;
+}
+.smenu .list{
+    width: 216px;
+    height: auto;
+    background: url(../img/sibar_bg.png) repeat-y;
+}
+.smenu .list li{
+    width: 178px;
+    height: 42px;
+    margin: auto;
+}
+.smenu .list li a{
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+    color: #555555;
+    background: url(../img/sibar.png) 0px -42px;
+    text-indent: 5px;
+    line-height: 42px;
+    display: block;
+    text-decoration: none;
+}
+.smenu .list li .cur,.smenu .list li a:hover{
+    background: url(../img/sibar.png) 0px 0px;
+    color: #39665f;
+}
+.smenu .bot{
+    height:9px; background: url(../img/sibar_bot.png) left center no-repeat;
+}
+
+.inner_html{
+
+}
