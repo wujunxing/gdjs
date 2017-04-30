@@ -53,3 +53,7 @@ $(function () {
     })
 
 })
+
+$(function () {
+    $("#slider").nivoSlider({ pauseTime: 3000, controlNav: false, controlNavThumbs: true });
+});
