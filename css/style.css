@@ -26,16 +26,13 @@ table {border-collapse: collapse;border-spacing:0;}
 .f_left_2{float:left; margin-left:10px;}
 
 .page_head{
-    width:1000px; height:90px; margin:0 auto;
-    background-image:url(../img/page_head.jpg);
-    background-position:center top;
-    background-repeat:no-repeat;
+    width:1000px; height:120px; margin:0 auto;
 }
 .page_head .logo{
-    float:left; margin-top:5px; height:80px;
+    float:left; height:100px; padding-top:10px;
 }
 .page_head .logo img{
-    height:80px;
+    height:100px;
 }
 .page_head .links{
     float:right; border:1px solid #dedede; border-top:none; background-color:#fff; padding:0 10px;
@@ -160,6 +157,44 @@ table {border-collapse: collapse;border-spacing:0;}
 .index_content01{
     padding:20px; border:1px solid #ccc; border-top:none;
 }
+
+.index_title02{
+    height:36px;
+    background-image: url(../img/title02.jpg);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+}
+.index_title02 .title01{
+    display:block; float:left; padding-left:10px; padding-right:40px; height:36px; color:#fff; font-weight:bold; font-size:13px; line-height:36px;
+}
+.index_title02 .title01 span{
+    display:block; height:36px; padding-left:40px;
+}
+.index_title02 .more{
+    display:block; float:right; margin-right:16px;
+}
+.index_title02 .more a{
+    font-size:12px;  line-height:36px; display:block; color:#fff;
+}
+.index_title_kejichuangxin{
+    background-image: url(../img/title_kejichuangxin.jpg);
+}
+.index_title_qiyewenhua{
+    background-image: url(../img/title_qiyewenhua.jpg);
+}
+.index_title_qiyewenhua .title01 span{
+    color:#000;
+}
+.index_title_shangjijingshen{
+    background-image: url(../img/title_shangjijingshen.jpg);
+}
+.index_title_tongzhitonggao{
+    background-image: url(../img/title_tongzhitonggao.jpg);
+}
+.index_title_tongzhitonggao .title01 span{
+    color:#000;
+}
+
 
 .index_topnews{
     border-bottom:1px dashed #cedbe4; padding-bottom:16px; margin-bottom:20px;
