@@ -10,3 +10,10 @@ $(function () {
         function () { tinycarousel_data.stop(); }, function () { tinycarousel_data.start(); }
     )
 });
+
+$(function () {
+    $("#floatimg").adFloat({ width: 252, height: 172, top: 0, left: 0, step: 2 });
+    $("#closead").click(function () {
+        $("#floatimg").remove();
+    });
+});

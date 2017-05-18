@@ -25,6 +25,21 @@ table {border-collapse: collapse;border-spacing:0;}
 .f_left20{float:left; margin-left:20px;}
 .f_left_2{float:left; margin-left:10px;}
 
+#floatimg {
+    z-index:100; left:2px;  position:absolute; top:43px;
+}
+#floatimg img{
+    width:252px; height:172px;
+}
+#closead{
+    position:absolute; right:0px; bottom:0px; width:60px; height:20px; background-color:#CCC; color:red;
+    text-align:center; border:1px solid #999; line-height:20px; cursor:pointer;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+}
+
 .page_head{
     width:1000px; height:120px; margin:0 auto;
 }
@@ -301,7 +316,7 @@ table {border-collapse: collapse;border-spacing:0;}
         display:block; width:300px; height:240px; overflow:hidden; float:left; text-align:center;
     }
     #flash_slider .overview li img{
-        display:block; width:300px; height:240px;
+        display:block; width:300px; height:240px; cursor:pointer;
     }
     #flash_slider .bullets{
         position:absolute; right:0px; bottom:0px;
@@ -345,7 +360,7 @@ table {border-collapse: collapse;border-spacing:0;}
         display:block; width:182px; height:160px; padding:3px;overflow:hidden; float:left; text-align:center;
     }
     #product_carousel .overview li img{
-        width:180px; height:120px; border:1px solid #eee;
+        width:180px; height:120px; border:1px solid #eee; cursor:pointer;
     }
     #product_carousel .product_btn {
         float:left; width:18px; margin-top:6px;
