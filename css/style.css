@@ -29,7 +29,7 @@ table {border-collapse: collapse;border-spacing:0;}
     z-index:100; left:2px;  position:absolute; top:43px;
 }
 #floatimg img{
-    width:252px; height:172px;
+    width:252px; height:172px; cursor:pointer;
 }
 #closead{
     position:absolute; right:0px; bottom:0px; width:60px; height:20px; background-color:#CCC; color:red;
