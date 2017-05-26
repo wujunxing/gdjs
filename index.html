@@ -12,6 +12,7 @@
 <body>
     <div class="page_head">
         <div class="logo"><img src="img/logo.png" alt="" /></div>
+        <div class="links">欢迎你，<b>勤劳的小蜜蜂</b>&nbsp;[<a href="#">个人中心</a>]</div>
         <div class="clear"></div>
     </div>
 
@@ -20,19 +21,20 @@
             <li class="li01"><a href="javascript:void();" class="link01">首页</a></li>
             <li class="li01">
                 <a href="javascript:void();" class="link01">企业概况</a>
-                <!--<ul class="ul02">
-                    <li class="li02"><a href="javascript:void();" class="link02">二级导航01</a></li>
-                    <li class="li02"><a href="javascript:void();" class="link02">二级导航02</a></li>
+                <ul class="ul02">
+                    <li class="li02"><a href="javascript:void();" class="link02">企业简介</a></li>
+                    <li class="li02"><a href="javascript:void();" class="link02">组织架构</a></li>
                     <li class="li02">
-                        <a href="javascript:void();" class="link02">二级导航03</a>
+                        <a href="javascript:void();" class="link02">企业资质</a>
                         <ul class="ul03">
                             <li class="li03"><a href="javascript:void();" class="link03">三级导航01</a></li>
                             <li class="li03"><a href="javascript:void();" class="link03">三级导航02</a></li>
                             <li class="li03"><a href="javascript:void();" class="link03">三级导航03</a></li>
                         </ul>
                     </li>
-                    <li class="li02"><a href="javascript:void();" class="link02">二级导航04</a></li>
-                </ul>-->
+                    <li class="li02"><a href="javascript:void();" class="link02">联系我们</a></li>
+                    <li class="li02"><a href="javascript:void();" class="link02">公司荣誉</a></li>
+                </ul>
             </li>
             <li class="li01"><a href="javascript:void();" class="link01">企业新闻</a></li>
             <li class="li01"><a href="javascript:void();" class="link01">党建视窗</a></li>
@@ -328,9 +330,6 @@
         </div>
     </div>
 
-
-    <div id="floatimg"><a href="newscontent.html" target="_blank"><img src="img/floatimg.jpg"/></a><div id="closead">关闭</div></div>
-
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="nivoslider/jquery.nivo.slider.js"></script>
     <script type="text/javascript" src="js/jquery.tinycarousel.js"></script>
@@ -338,6 +337,15 @@
 
     <script src="js/adfloat.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+
+    <script type="text/javascript">
+        //1浮动2左下3右下
+        adImg({ adtype: 1, adwidth: 252, adheight: 172, adtitle: 'test', adimgsrc: 'img/floatimg.jpg', adhref: 'https://wujunxing.github.io/gdjsnw/' })
+
+        adImg({ adtype: 2, adwidth: 252, adheight: 172, adtitle: 'test', adimgsrc: 'img/floatimg.jpg', adhref: 'https://wujunxing.github.io/gdjsnw/' })
+
+        adImg({ adtype: 3, adwidth: 252, adheight: 172, adtitle: 'test', adimgsrc: 'img/floatimg.jpg', adhref: 'https://wujunxing.github.io/gdjsnw/' })
+    </script>
 
 </body>
 </html>
