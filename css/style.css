@@ -29,10 +29,10 @@ table {border-collapse: collapse;border-spacing:0;}
     z-index:100; position:absolute;
 }
 .floatad a{
-    display:block; width:252px; height:auto; line-height:0; cursor:pointer;
+    display:block; height:auto; line-height:0; cursor:pointer;
 }
 .floatad img{
-    display:block; width:252px; height:auto; cursor:pointer;
+    display:block; height:auto; cursor:pointer;
 }
 .floattype01{
     position:fixed; left:0px; bottom:0px;
