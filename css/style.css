@@ -364,9 +364,18 @@ table {border-collapse: collapse;border-spacing:0;}
     background-image:url(../img/iproject.jpg);
     background-position:right center; background-repeat:no-repeat;
 }
+#index_project .more2{
+    float:left; width:30px; height:170px;
+    background-image:url(../img/iproject2.jpg);
+    background-position:right center; background-repeat:no-repeat;
+}
 #index_project .more a{
     display:block; width:20px; padding:0px 5px; margin-top:40px; color:#fff; line-height:20px; text-align:center; font-weight:bold;
 }
+#index_project .more2 a{
+    display:block; width:20px; padding:0px 5px; margin-top:40px; color:#fff; line-height:20px; text-align:center; font-weight:bold;
+}
+
 #product_carousel{
     float:left; width:968px; overflow:hidden;
 }
@@ -377,10 +386,10 @@ table {border-collapse: collapse;border-spacing:0;}
         position:absolute; left:0px; top:0px;
     }
     #product_carousel .overview li{
-        display:block; width:182px; height:160px; padding:3px;overflow:hidden; float:left; text-align:center;
+        display:block; width:152px; height:160px; padding:3px;overflow:hidden; float:left; text-align:center;
     }
     #product_carousel .overview li img{
-        width:180px; height:120px; border:1px solid #eee; cursor:pointer;
+        width:150px; height:120px; border:1px solid #eee; cursor:pointer;
     }
     #product_carousel .product_btn {
         float:left; width:18px; margin-top:6px;
@@ -397,6 +406,39 @@ table {border-collapse: collapse;border-spacing:0;}
         background-image:url(../img/icon_next.png); background-position:center center; background-repeat:no-repeat;
     }
         #product_carousel .product_btn .next:hover{
+            background-image:url(../img/icon_next_on.png);
+        }
+
+#product_carousel2{
+    float:left; width:968px; overflow:hidden;
+}
+    #product_carousel2 .viewport {
+        float:left; position:relative; width:940px; height:170px; overflow:hidden;
+    }
+    #product_carousel2 .overview{
+        position:absolute; left:0px; top:0px;
+    }
+    #product_carousel2 .overview li{
+        display:block; width:152px; height:160px; padding:3px;overflow:hidden; float:left; text-align:center;
+    }
+    #product_carousel2 .overview li img{
+        width:150px; height:120px; border:1px solid #eee; cursor:pointer;
+    }
+    #product_carousel2 .product_btn {
+        float:left; width:18px; margin-top:6px;
+    }
+    #product_carousel2 .product_btn .prev{
+        display:block; width:18px; height:50px; background-color:#eee;
+        background-image:url(../img/icon_prev.png); background-position:center center; background-repeat:no-repeat;
+    }
+        #product_carousel2 .product_btn .prev:hover {
+            background-image:url(../img/icon_prev_on.png);
+        }
+    #product_carousel2 .product_btn .next{
+        display:block; width:18px; height:50px; background-color:#eee; margin-top:6px;
+        background-image:url(../img/icon_next.png); background-position:center center; background-repeat:no-repeat;
+    }
+        #product_carousel2 .product_btn .next:hover{
             background-image:url(../img/icon_next_on.png);
         }
 
@@ -475,7 +517,7 @@ table {border-collapse: collapse;border-spacing:0;}
 }
 .inner_project_content .item{
     width:240px; margin-right:10px; float:left; border:1px solid #ccc; padding:1px;
-    height:196px; overflow:hidden; margin-bottom:20px;
+    height:216px; overflow:hidden; margin-bottom:20px;
 }
 .inner_project_content .cover01{
     width:240px; height:160px;
@@ -484,7 +526,7 @@ table {border-collapse: collapse;border-spacing:0;}
     width:240px; height:160px; cursor:pointer;
 }
 .inner_project_content .title01{
-    padding:8px; line-height:18px; text-align:center; height:18px; overflow:hidden;
+    padding:8px; padding-bottom:0px; text-align:center; line-height:18px; height:36px; overflow:hidden;
 }
 
 .paging{height:50px; padding-top:15px; line-height:50px; text-align:center; overflow:hidden;} 

@@ -13,6 +13,14 @@ $(function () {
     )
 });
 
+$(function () {
+    $("#product_carousel2").tinycarousel({ interval: true, axis :'x'});
+    var tinycarousel_data2 = $("#product_carousel2").data("plugin_tinycarousel");
+    $("#product_carousel2").hover(
+        function () { tinycarousel_data2.stop(); }, function () { tinycarousel_data2.start(); }
+    )
+});
+
 function adImg(addata) {
     var newdome;
     var linkdom;
